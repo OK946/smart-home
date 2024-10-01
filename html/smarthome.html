@@ -3,38 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <title>Home Page</title>
-    <link href="/style/home.css" ref="stylesheet">
+    <link href="/home.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
-     <img src="/images/house-logo.png" alt="The Houses Inc. logo"><h1>Welcome to the homes of <em>Tomorrow</em></h1>
+     <a href="/html/smarthome.html"><img src="/images/house-logo.png" alt="The Houses Inc. logo"></a>
+     <a href="/html/convenience.html">Convenience</a> 
+     <a href="/html/cleaning.html">Cleaning</a>
+     <a href="/html/safety.html">Safety</a>
     </header>
-
+    <h1>Welcome to the homes of <em>Tomorrow</em></h1>
     <main>
-        <img src="/images/futuristichouse.png" height="500" alt="A clean, modern house exterior">
+        <img src="/images/futuristichouse.png" height="500" alt="A clean, modern house exterior" class="hero-img">
         <img src="/images/modernhouse.jpg" width="550" alt="Modern and clean looking living room">
         <section>
-            <article>
-                <nav><a href="/html/convenience.html"><h2>See how convenient your life could be</h2></a></nav>
-                <p>From automatic breakfast to auto-filling bathtubs, our homes have everything you could ever need.</p>  
+            <article class="covenience-section-home">
+                <h2>See how convenient your life could be</h2>
+                <p>From automatic breakfast to auto-filling bathtubs, our homes have everything you could ever need.</p>
+                <nav><a href="/html/convenience.html"><u>Check it out</u></a></nav>
+                <img src="/images/wallclock.png" alt="A wall clock with a face that would tell the time." width="500"> 
             </article>
-            <img src="/images/wallclock.png" alt="A wall clock with a face that would tell the time." width="500"> 
         </section>
 
         <section>
-            <article>
-                <nav><a href="/html/cleaning.html"><h2>View our fully automated cleaning features</h2></a></nav>
+            <article class="cleaning-section-home">
+                <h2>View our fully automated cleaning features</h2>
                 <p>Never pick up a vacuum or mop again with our state-of-the-art cleaning technology.</p>
+                <nav><a href="/html/cleaning.html"><u>Check it out</u></a></nav>
+                <img src="/images/robotmouse.png" alt="A robotic mouse holding a broom." width="500">
             </article>
-            <img src="/images/robotmouse.png" alt="A robotic mouse holding a broom." width="500">
         </section>
 
         <section>
-            <article>
-                <nav><a href="/html/safety.html"><h2>Witness the pinnacle of home protection</h2></a></nav>
-                <p>Leave your worries behind due to our top-notch home safety systems. Includes protection against intruders and from<br>
+            <article class="safety-section-home">
+                <h2>Witness the pinnacle of home protection</h2>
+                <p>Leave your worries behind due to our top-notch home safety systems. Includes protection against intruders and from
                 the ever-present California fires. </p>
+                <nav><a href="/html/safety.html"><u>Check it out</u></a></nav>
             </article>    
             <img src="/images/firealarm.png" alt="Robotic fire alarm" width="500">
         </section>
