@@ -1,0 +1,32 @@
+h1, h2, p, a {
+    color: white;
+}
+
+header, footer {
+    background-color:#EBA750;
+    width:100%;
+    height: 7vh;
+    display: flex;
+    justify-content:space-around;
+    border: 2px solid black;
+}
+
+.logo {
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+}
+
+header > a {
+    align-content: center;
+
+}
+
+footer > p, header > a {
+    color:black;
+}
+
+body {
+    background-color: #00373D;
+
+}

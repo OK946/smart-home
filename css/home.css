@@ -1,3 +1,5 @@
+
+
 h1, h2, p, a {
     color: white;
 }
@@ -8,13 +10,22 @@ header, footer {
     height: 7vh;
     display: flex;
     justify-content:space-around;
+    border: 2px solid black;
+    position: sticky;
 }
 
-header > img {
-    margin-right: 55vh;
+.logo {
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
 }
 
-footer > p, footer > a, header > p {
+header > a {
+    align-content: center;
+
+}
+
+footer > p, header > a {
     color:black;
 }
 
@@ -25,20 +36,33 @@ body {
 
 .hero-img {
     width: 100%;
-
+    height: 80vh;
+    position: absolute;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: center;
 }
 
 h1 {
-    align-content: space-evenly;
+    align-content: center;
     background-color: #3C5663;
-    border:5px #EBA750;
+    border: 5px solid #EBA750;
     justify-content: center;
     display: flex;
-    width: 50%;
+    width: 50vh;
     flex-direction: column;
     align-items:center;
     text-align: center;
-
+    position: relative;
+    justify-items: center;
+    margin: auto;
+    padding: 5%;
+    margin-top: 28vh;
+    font-size: 300%;
+}
+#interior-image {
+margin-top: 30%;
+min-height:auto;
 }
 
 article.covenience-section-home, article.safety-section-home, article.cleaning-section-home {
@@ -49,9 +73,16 @@ article.covenience-section-home, article.safety-section-home, article.cleaning-s
     flex-direction: column;
 }
 
+section > img {
+    display: flex;
+    align-content:flex-end
+}
+
+
 article > nav {
     background-color:black;
     width:max-content;
+    border:3px solid black;
 }
 
 
