@@ -59,13 +59,34 @@ h1 {
     padding: 5%;
     margin-top: 28vh;
     font-size: 300%;
-}
-#interior-image {
-margin-top: 30%;
-min-height:auto;
+    border-radius: 40px;
 }
 
-article.covenience-section-home, article.safety-section-home, article.cleaning-section-home {
+section.introduction-section {
+    display:flex;
+    flex-direction: row-reverse;
+    margin-top: 35dvh;
+    background-color: #3C5663;
+    width:75%;
+    justify-content: center;
+}
+.intro {
+    display: flex;
+    justify-content: flex-start;
+
+}
+#intro-header {
+    order: 1
+}
+
+#wallclock-image {
+    display: flex;
+    align-self: end;
+
+}
+
+
+.covenience-section-home, article.safety-section-home, article.cleaning-section-home {
     background-color:#3C5663;
     display: flex;
     width: 48%;
