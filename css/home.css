@@ -4,6 +4,10 @@ h1, h2, p, a {
     color: white;
 }
 
+img {
+    border: 5px solid #EBA750;
+}
+
 header, footer {
     background-color:#EBA750;
     width:100%;
@@ -18,6 +22,7 @@ header, footer {
     margin-right: auto;
     width: 100%;
     height: 100%;
+    border: none;
 }
 
 header > a {
@@ -34,6 +39,8 @@ body {
 
 }
 
+
+
 .hero-img {
     width: 100%;
     height: 80vh;
@@ -41,6 +48,7 @@ body {
     margin-bottom: auto;
     display: flex;
     justify-content: center;
+    border:none;
 }
 
 h1 {
@@ -109,3 +117,6 @@ article > nav {
 
 
 
+footer {
+    justify-content: flex-start;
+}
