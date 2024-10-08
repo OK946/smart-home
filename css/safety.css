@@ -1,3 +1,6 @@
+
+
+
 h1, h2, p, a {
     color: white;
 }
@@ -51,5 +54,48 @@ body {
 }
 
 footer {
+    margin-top: 200px;
     justify-content: flex-start;
+    position: relative;
+}
+
+footer > p {
+    margin-left: 1%;
+}
+
+.safety {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.safety-text {
+    background-color:#3C5663;
+    min-height: 40%;
+    min-width: 5%;
+}
+
+.safety-image {
+    min-width: 1vh;
+    max-width: 85vh;
+    background-color: none;
+    border: 5px solid #EBA750;
+}
+
+
+h2 {
+    text-decoration: underline;
+}
+
+dt {
+    text-decoration: underline;
+    margin-left: 1%;
+}
+
+dd {
+    margin-bottom: 1%;
+}
+
+#sprinkler-image {
+    margin-bottom: 35%;
 }

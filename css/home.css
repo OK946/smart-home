@@ -120,3 +120,7 @@ article > nav {
 footer {
     justify-content: flex-start;
 }
+
+footer > p {
+    margin-left: 1%;
+}

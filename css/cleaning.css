@@ -55,23 +55,36 @@ body {
     background-color: #3C5663;
     display:flex;
     flex-direction: column;
-    border: 5px solid #EBA750;
     max-width: 100vh;
     margin-left: 25%;
-    margin-right: 10%;
+    margin-right: 25%;
     margin-top: 5%;
-    align-items: center;
+    justify-content: space-around;
 }
 
 #dishwasher-image, #mouse-image {
-    align-self: center;
-    width: 100%;
+    width: 80%;
     height: 70%;
     border: 5px solid #EBA750;
+    margin-left: 10%;
 }
 
 
 
 footer {
     justify-content: flex-start;
+}
+
+dt {
+text-decoration: underline;
+margin: 1%;
+}
+
+h2 {
+    margin-left: 1%;
+    text-decoration: underline;
+}
+
+footer > p {
+    margin-left: 1%;
 }
