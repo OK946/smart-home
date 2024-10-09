@@ -78,7 +78,6 @@ footer > p {
 .safety-image {
     min-width: 1vh;
     max-width: 85vh;
-    background-color: none;
     border: 5px solid #EBA750;
 }
 

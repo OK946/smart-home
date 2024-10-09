@@ -70,50 +70,69 @@ h1 {
     border-radius: 40px;
 }
 
-section.introduction-section {
+.introduction-section {
     display:flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-wrap: wrap;
     margin-top: 35dvh;
-    background-color: #3C5663;
     width:75%;
-    justify-content: center;
+    align-content: center;
 }
+
 .intro {
-    display: flex;
-    justify-content: flex-start;
+    background-color: #3C5663;
+    flex-wrap: wrap;
+    background-size: auto;
+}
+
+
+#interior-image {
+    width: 35vh;
+    height: 25vh;
 
 }
+
 #intro-header {
-    order: 1
+    width: 50%;
 }
 
-#wallclock-image {
-    display: flex;
-    align-self: end;
-
+#intro-paragraph {
+    width: 50%;
 }
 
-
-.covenience-section-home, article.safety-section-home, article.cleaning-section-home {
+.covenience-section-home,.safety-section-home,.cleaning-section-home {
     background-color:#3C5663;
     display: flex;
-    width: 48%;
-    align-content:flex-start;
-    flex-direction: column;
+    flex-direction: row;
+    margin: 3%;
+    max-height:40vh
 }
 
-section > img {
-    display: flex;
-    align-content:flex-end
+
+
+#wallclock-image {
+    max-width: 45%;
+
 }
 
+#fire-alarm-image {
+    max-width: 45%;
+}
+
+#robot-mouse {
+    max-width: 45%;
+    max-height:fit-content
+}
 
 article > nav {
     background-color:black;
-    width:max-content;
+    width: max-content;
     border:3px solid black;
 }
 
+article {
+    margin-left: 2%;
+}
 
 
 
@@ -123,4 +142,8 @@ footer {
 
 footer > p {
     margin-left: 1%;
+}
+
+section > h6 {
+    color: #3C5663;
 }
