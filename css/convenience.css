@@ -2,6 +2,13 @@ h1, h2, p, a {
     color: white;
 }
 
+
+
+p, a {
+    font-size: 20px;
+    font-family: "Judson", serif;
+}
+
 h1 {
     align-content: center;
     background-color: #3C5663;
@@ -15,6 +22,7 @@ h1 {
     height: 20vh;
     margin-top: -1vh;
     font-size: 300%;
+    font-family: "Judson", serif;
 }
 
 dl {
@@ -95,23 +103,36 @@ body {
 h2 {
     text-align: center;
     text-decoration: underline;
+    font-family: "Judson", serif;
 }
 
 dt {
     text-decoration: underline;
     text-align: center;
+    font-family: "Judson", serif;
+    font-size: 22px;
+    margin-bottom:1%;
 }
 
 
 footer {
     justify-content: flex-start;
+    margin-top: 5%;
 }
 
 dd {
     text-align: center;
     margin:auto;
+    font-family: "Inika", serif;
+    font-size: 18px;
+    margin-bottom:1%;
 }
 
 footer > p {
     margin-left: 1%;
+}
+
+h6 {
+    position: absolute;
+    opacity: 0;
 }

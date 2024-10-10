@@ -5,6 +5,11 @@ h1, h2, p, a {
     color: white;
 }
 
+p, a {
+    font-size: 20px;
+    font-family: "Judson", serif;
+}
+
 h1 {
     align-content: center;
     background-color: #3C5663;
@@ -18,6 +23,7 @@ h1 {
     height: 20vh;
     margin-top: -1vh;
     font-size: 300%;
+    font-family: "Judson", serif;
 }
 
 dl {
@@ -73,28 +79,38 @@ footer > p {
     background-color:#3C5663;
     min-height: 40%;
     min-width: 5%;
+    max-width: 85vh
 }
 
 .safety-image {
     min-width: 1vh;
-    max-width: 85vh;
+    max-width: 84vh;
     border: 5px solid #EBA750;
 }
 
 
 h2 {
     text-decoration: underline;
+    font-family: "Judson", serif;
 }
 
 dt {
     text-decoration: underline;
     margin-left: 1%;
+    margin-bottom:1%;
+    font-size: 22px;
 }
 
 dd {
     margin-bottom: 1%;
+    font-family: "Inika", serif;
+    font-size: 18px;
 }
 
 #sprinkler-image {
     margin-bottom: 35%;
+}
+
+h6 {
+    color:#00373D
 }

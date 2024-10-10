@@ -4,6 +4,11 @@ h1, h2, p, a {
     color: white;
 }
 
+p, a {
+    font-size: 20px;
+}
+
+
 img {
     border: 5px solid #EBA750;
 }
@@ -15,7 +20,6 @@ header, footer {
     display: flex;
     justify-content:space-around;
     border: 2px solid black;
-    position: sticky;
 }
 
 .logo {
@@ -27,11 +31,13 @@ header, footer {
 
 header > a {
     align-content: center;
+    color:black;
 
 }
 
-footer > p, header > a {
+footer > p {
     color:black;
+    font-family: "Judson", serif;
 }
 
 body {
@@ -68,17 +74,37 @@ h1 {
     margin-top: 28vh;
     font-size: 300%;
     border-radius: 40px;
+    font-family: "Judson", serif;
+}
+
+h2 {
+    font-family: "Judson", serif;
+}
+
+a {
+    font-family: "Judson", serif;
+}
+
+p {
+    font-family: "Inika", serif;
 }
 
 .introduction-section {
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     margin-top: 35dvh;
-    width:75%;
+    width:94%;
     align-content: center;
+    background-color: #3C5663;
+    justify-content: space-between;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
+.introduction-section > h6 {
+    position: absolute;
+}
 .intro {
     background-color: #3C5663;
     flex-wrap: wrap;
@@ -87,18 +113,12 @@ h1 {
 
 
 #interior-image {
-    width: 35vh;
-    height: 25vh;
+    width: 45%;
+    max-width: 50vh;
 
 }
 
-#intro-header {
-    width: 50%;
-}
 
-#intro-paragraph {
-    width: 50%;
-}
 
 .covenience-section-home,.safety-section-home,.cleaning-section-home {
     background-color:#3C5663;
@@ -111,17 +131,19 @@ h1 {
 
 
 #wallclock-image {
-    max-width: 45%;
+    width: 45%;
+    max-width: 50vh;
 
 }
 
 #fire-alarm-image {
-    max-width: 45%;
+    width: 45%;
+    max-width: 50vh;
 }
 
 #robot-mouse {
-    max-width: 45%;
-    max-height:fit-content
+    width: 45%;
+    max-width: 50vh;
 }
 
 article > nav {
@@ -147,3 +169,6 @@ footer > p {
 section > h6 {
     color: #3C5663;
 }
+
+
+
