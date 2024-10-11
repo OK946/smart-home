@@ -23,6 +23,10 @@ h1 {
     font-family: "Judson", serif;
 }
 
+header {
+    position: fixed;
+}
+
 dl {
     color: white;
 }
