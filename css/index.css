@@ -15,7 +15,7 @@ img {
 
 header, footer {
     background-color:#EBA750;
-    width:100%;
+    width:99vw;
     height: 7vh;
     display: flex;
     justify-content:space-around;
@@ -43,19 +43,18 @@ footer > p {
 
 body {
     background-color: #00373D;
-
+    margin: 0;
 }
 
 
 
 .hero-img {
-    width: 99.5%;
+    width: 99vw;
     height: 90vh;
     position: absolute;
     margin-bottom: auto;
     justify-content: center;
     border:none;
-    margin-right: 1%;
 }
 
 h1 {
@@ -182,6 +181,7 @@ footer > p {
 
 section > h6 {
     color: #3C5663;
+    position: absolute;
 }
 
 
